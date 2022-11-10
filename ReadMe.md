@@ -11,6 +11,8 @@ O Projeto **ClientsAPI** é uma API desenvolvida seguindo o padrão de MinimalAP
 
 Abaixo seguirá o contrato de como as respostas em _JSON_ serão retornadas e como os _REQUEST_ deverão ser enviadas a aplicação, sendo que a aplicação tem configurada o **Swagger** para facilitar tanto a documentação quanto os testes de desenvolvimento e está hospedada na Azure.
 
+> Caso opte pela utilização do Postman, na raiz do projeto se encontra uma pasta com o nome _Postman_ contendo uma coleção com as requisições e os testes unitários dos endpoints.
+
 **Listagem de cliente(s)**
 
 - URL : <https://cnpclientsapi.azurewebsites.net/clients> / <https://cnpclientsapi.azurewebsites.net/clients/{id}>
