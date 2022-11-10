@@ -1,6 +1,4 @@
-﻿
 <center><h1>Documentação ClientsAPI</h1></center>
-
 
 <h4>Tecnologias utilizadas<h4>
 
