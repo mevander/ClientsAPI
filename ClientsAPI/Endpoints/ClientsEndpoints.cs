@@ -80,10 +80,10 @@ namespace ClientsAPI.Endpoints
 			{
 				db.Clientes.Remove(client);
 				await db.SaveChangesAsync();
-				return Results.Ok(client);
+				return Results.NoContent();
 			}
 
-			return Results.NoContent();
+			return Results.NotFound();
 		}
 	}
 }

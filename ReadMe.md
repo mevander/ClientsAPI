@@ -75,6 +75,7 @@ Abaixo seguirá o contrato de como as respostas em _JSON_ serão retornadas e co
 
 ```json
 {
+  "id": 0,
   "nome": "string",
   "dtNascimento": "2022-01-01T11:22:33.456Z",
   "status": 0,
@@ -93,12 +94,13 @@ Abaixo seguirá o contrato de como as respostas em _JSON_ serão retornadas e co
 }
 ````
 
-
 > **Observação:**  Caso algum endereço da lista de endereços não tenha seu ID informado, a API entenderá que é um novo endereço a ser adicionado ao cliente
+
 
 **Excluir Cliente**
 
 - URL : <https://cnpclientsapi.azurewebsites.net/clients/{id}>
 - Parâmetro: ID = Identificador do cliente
 - Verbo : **DELETE**
+
 > **Observação:**  Caso o cliente tenha endereços relacionados a ele, todos endereços dele serão excluídos.
