@@ -1,9 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using ClientsAPI.Data;
-using Microsoft.Extensions.Configuration;
-using ClientsAPI.Data.Entities;
-using FluentValidation;
-using ClientsAPI.Validators;
 using ClientsAPI.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);

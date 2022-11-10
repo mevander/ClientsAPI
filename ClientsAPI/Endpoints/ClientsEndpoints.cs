@@ -1,7 +1,4 @@
-﻿using FluentValidation;
-using ClientsAPI.Data;
-using ClientsAPI.Extensions;
-using ClientsAPI.Filters;
+﻿using ClientsAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using ClientsAPI.Data.Entities;
 using Microsoft.AspNetCore.Http;
